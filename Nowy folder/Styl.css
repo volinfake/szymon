@@ -6,12 +6,12 @@
  font-family: 'Poppins',sans-serif;
  font-size: 18px;
  font-weight: 500;
- color: white;
+ color: rgb(105, 105, 105);
 }
 body {
  padding: 0;
  margin: 0;
- background: #c5c5c5;
+ background: #b9b9b9;
 }
 
 .menu {
@@ -20,7 +20,7 @@ position: fixed;
 top: 0;
 left: 0;
 padding: 0 3rem;
-background: #1F2232;
+background: #240909;
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
@@ -68,4 +68,15 @@ align-items: center;
 .dropdown a:hover + ul,
 .dropdown ul:hover {
     display: block;
+}
+.przycisk {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Zielony kolor tła */
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Usunięcie podkreślenia linku */
+  border: none;
+  cursor: pointer; /* Zmiana kursora na rękę */
+  border-radius: 5px; /* Zaokrąglenie rogów */
 }
